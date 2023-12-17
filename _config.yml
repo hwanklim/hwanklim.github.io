@@ -20,7 +20,7 @@ locale                   : "ko-KR"
 title                    : "Hwanklim"
 title_separator          : "|"
 subtitle                 : "There is no success without a challenges"
-name                     : "Lim Hwankyu"
+name                     : "LimHwankyu"
 description              : "Ai Bigdata 관련 블로그"
 url                      : "https://hwanklim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -105,8 +105,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Lim Hwankyu"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "LimHwankyu"
+  avatar           : "/assets/images/limimages1.jpg"
   bio              : "Ai Bigdata 관련 블로그"
   location         : "South Korea"
   email            : 
