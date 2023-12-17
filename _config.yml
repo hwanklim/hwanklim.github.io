@@ -16,6 +16,7 @@
  minimal_mistakes_skin    : "air"
 
 #theme                  : "minimal-mistakes-jekyll"
+#remote_theme           : "mmistakes/minimal-mistakes"
 #Site Settings
 title                    : "Hwanklim"
 title_separator          : "|"
