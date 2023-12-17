@@ -233,7 +233,7 @@ jekyll-archives:
    - tags
   layouts:
    category: archive-taxonomy
-    tag: archive-taxonomy
+   tag: archive-taxonomy
   permalinks:
    category: /categories/:name/
    tag: /tags/:name/
