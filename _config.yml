@@ -229,12 +229,12 @@ tag_archive:
 #https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
-     - categories
-     - tags
+   - categories
+   - tags
   layouts:
    category: archive-taxonomy
     tag: archive-taxonomy
- permalinks:
+  permalinks:
    category: /categories/:name/
    tag: /tags/:name/
 
