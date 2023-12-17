@@ -12,12 +12,12 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air"
+#minimal_mistakes_skin    : "air"
 
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Hwanklim"
-title_separator          : "|"
+title_separator          : '|'
 subtitle                 : "There is no success without a challenges"
 name                     : "LimHwankyu"
 description              : "Ai Bigdata 관련 블로그"
