@@ -10,12 +10,12 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+ #theme                  : "minimal-mistakes-jekyll"
+ remote_theme           : "mmistakes/minimal-mistakes"
+
 minimal_mistakes_skin    : "air"
 
-# Site Settings
-locale                   : "en-US"
+#Site Settings
 title                    : "Hwanklim"
 title_separator          : '|'
 subtitle                 : "There is no success without a challenges"
@@ -29,7 +29,7 @@ logo                     : "/assets/images/limimages1.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-#comments:
+comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "hwanklimnote"
@@ -47,8 +47,8 @@ words_per_minute         : 200
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                : #
-  secret                 : #
+  siteKey                : 
+  secret                 : 
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
@@ -97,11 +97,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "LimHwankyu"
-  avatar           : "/assets/images/limimages1.jpg"
+  name             : "hwanklim"
+  avatar           : #
   bio              : "Ai Bigdata 관련 블로그"
   location         : "South Korea"
-  email            :  #
+  email            :  
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
