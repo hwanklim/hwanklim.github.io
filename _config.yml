@@ -14,8 +14,8 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin    : "air"
 
- Site Settings
-locale                   : "ko-KR"
+#Site Settings
+locale                   : "en-US"
 title                    : "Hwanklim"
 title_separator          : '|'
 subtitle                 : "There is no success without a challenges"
