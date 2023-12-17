@@ -12,24 +12,24 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-#minimal_mistakes_skin    : "air"
+minimal_mistakes_skin    : "air"
 
 # Site Settings
-#locale                   : "en-US"
-#title                    : "Hwanklim"
-#title_separator          : '|'
-#subtitle                 : "There is no success without a challenges"
-#name                     : "LimHwankyu"
-#description              : "Ai Bigdata 관련 블로그"
-#url                      : "https://hwanklim.github.io"
-#baseurl                  : # the subpath of your site, e.g. "/blog"
-#repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-#teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-#logo                     : "/assets/images/limimages1.jpg"
-#masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-#breadcrumbs              : true # true, false (default)
-#words_per_minute         : 200
-comments:
+locale                   : "en-US"
+title                    : "Hwanklim"
+title_separator          : '|'
+subtitle                 : "There is no success without a challenges"
+name                     : "LimHwankyu"
+description              : "Ai Bigdata 관련 블로그"
+url                      : "https://hwanklim.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/limimages1.jpg"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 200
+#comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "hwanklimnote"
@@ -37,7 +37,7 @@ comments:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
+    appid                : #
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
@@ -47,8 +47,8 @@ comments:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : #
+  secret                 : #
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
@@ -66,19 +66,19 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
-yandex_site_verification :
-baidu_site_verification  :
+google_site_verification : #
+bing_site_verification   : #
+naver_site_verification  : #
+yandex_site_verification : #
+baidu_site_verification  : #
 
 # Social Sharing
 twitter:
-  username               :
+  username               : #
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
+  username               : #
+  app_id                 : #
+  publisher              : #
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -101,7 +101,7 @@ author:
   avatar           : "/assets/images/limimages1.jpg"
   bio              : "Ai Bigdata 관련 블로그"
   location         : "South Korea"
-  email            : 
+  email            :  #
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
