@@ -15,9 +15,9 @@
 #minimal_mistakes_skin    : "air"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "Hwanklim"
-title_separator          : "|"
+#locale                   : "ko-KR"
+#title                    : "Hwanklim"
+#title_separator          : "|"
 subtitle                 : "There is no success without a challenges"
 name                     : "LimHwankyu"
 description              : "Ai Bigdata 관련 블로그"
