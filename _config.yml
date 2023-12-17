@@ -29,7 +29,7 @@
 #masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs              : true # true, false (default)
 #words_per_minute         : 200
-#comments:
+comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
     shortname            : "hwanklimnote"
