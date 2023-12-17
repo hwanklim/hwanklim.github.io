@@ -14,22 +14,22 @@
  #theme                  : "minimal-mistakes-jekyll"
 
 
-#theme                  : "minimal-mistakes-jekyll"
-#remote_theme           : "mmistakes/minimal-mistakes"
-#Site Settings
-title                    : "Hwanklim"
-title_separator          : "|"
-subtitle                 : "There is no success without a challenges"
-name                     : "LimHwankyu"
-description              : "Ai Bigdata 관련 블로그"
-url                      : "https://hwanklim.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/limimages1.jpg"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+ #theme                  : "minimal-mistakes-jekyll"
+ #remote_theme           : "mmistakes/minimal-mistakes"
+ #Site Settings
+ title                    : "Hwanklim"
+ title_separator          : "|"
+ subtitle                 : "There is no success without a challenges"
+ name                     : "LimHwankyu"
+ description              : "Ai Bigdata 관련 블로그"
+ url                      : "https://hwanklim.github.io"
+ baseurl                  : # the subpath of your site, e.g. "/blog"
+ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+ teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+ logo                     : "/assets/images/limimages1.jpg"
+ masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+ breadcrumbs              : true # true, false (default)
+ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -63,6 +63,13 @@ algolia:
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
+  # Exclude more files from indexing
+ files_to_exclude:
+    - index.html
+    - index.md
+    - excluded-file.html
+    - _posts/2017-11-28-post-exclude-search.md
+    - subdirectory/*.html
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
