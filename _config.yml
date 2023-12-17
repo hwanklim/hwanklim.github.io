@@ -56,20 +56,14 @@ atom_feed:
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
-lunr:
+#lunr:
   search_within_pages    : # true, false (default)
-algolia:
+#algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
   # Exclude more files from indexing
- files_to_exclude:
-    - index.html
-    - index.md
-    - excluded-file.html
-    - _posts/2017-11-28-post-exclude-search.md
-    - subdirectory/*.html
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
