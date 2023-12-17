@@ -8,28 +8,26 @@
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
- minimal_mistakes_skin   : "mint"
-
- #theme                  : "minimal-mistakes-jekyll"
-
-
- #theme                  : "minimal-mistakes-jekyll"
- #remote_theme           : "mmistakes/minimal-mistakes"
- #Site Settings
- title                    : "Hwanklim"
- title_separator          : "|"
- subtitle                 : "There is no success without a challenges"
- name                     : "LimHwankyu"
- description              : "Ai Bigdata 관련 블로그"
- url                      : "https://hwanklim.github.io"
- baseurl                  : # the subpath of your site, e.g. "/blog"
- repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
- teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
- logo                     : "/assets/images/limimages1.jpg"
- masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
- breadcrumbs              : true # true, false (default)
- words_per_minute         : 200
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# Site Settings
+locale                   : "ko-KR"
+title                    : "Hwanklim"
+title_separator          : "|"
+subtitle                 : "There is no success without a challenges"
+name                     : "LimHwankyu"
+description              : "Ai Bigdata 관련 블로그"
+url                      : "https://hwanklim.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/limimages1.jpg"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -38,18 +36,25 @@ comments:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                : #
+    appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
+  giscus:
+    repo_id              : # Shown during giscus setup at https://giscus.app
+    category_name        : # Full text name of the category
+    category_id          : # Shown during giscus setup at https://giscus.app
+    discussion_term      : # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : # '1' for enabled (default), '0' for disabled
+    theme                : # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                : 
-  secret                 : 
+  siteKey                :
+  secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
@@ -57,30 +62,29 @@ search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : false
+  search_within_pages    : # true, false (default)
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : false
-  # Exclude more files from indexing
+  powered_by             : # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : #
-bing_site_verification   : #
-naver_site_verification  : #
-yandex_site_verification : #
-baidu_site_verification  : #
+google_site_verification :
+bing_site_verification   :
+naver_site_verification  :
+yandex_site_verification :
+baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : #
+  username               :
 facebook:
-  username               : #
-  app_id                 : #
-  publisher              : #
+  username               :
+  app_id                 :
+  publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -99,11 +103,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "hwanklim"
-  avatar           : #
+  name             : "LimHwankyu"
+  avatar           : "/assets/images/limimages1.jpg"
   bio              : "Ai Bigdata 관련 블로그"
   location         : "South Korea"
-  email            :  
+  email            : 
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -188,12 +192,12 @@ timezone: Asia/Seoul
 
 
 # Plugins (previously gems:)
-plugins:
- - jekyll-paginate
- - jekyll-sitemap
- - jekyll-gist
- - jekyll-feed
- - jekyll-include-cache
+#plugins:
+# - jekyll-paginate
+#  - jekyll-sitemap
+#  - jekyll-gist
+#  - jekyll-feed
+#  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
