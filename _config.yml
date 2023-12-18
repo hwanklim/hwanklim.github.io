@@ -24,8 +24,8 @@ description              : "데이터와 인공지능을 좋아하는 개발자 
 url                      : "https://hwanklim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "hwanklim/minimal-mistakes"
-teaser                   : "/assets/images/limimages2.jpg"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : #
+logo                     : "/assets/images/limimages2.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true
 words_per_minute         : 200
