@@ -116,6 +116,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url : "https://github.com/hwanklim"
+    - label: "YouTube"
+      icon: "fab fa-youtube"
+      url : "https://www.youtube.com/@ummm8834"
 
 # Site Footer
 footer:
