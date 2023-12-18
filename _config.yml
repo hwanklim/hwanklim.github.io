@@ -104,15 +104,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "LimHwankyu"
+  name             : "Hwanklim.Note"
   avatar           : "/assets/images/limimages1.jpg"
   bio              : "Ai Bigdata 관련 블로그"
   location         : "South Korea"
-  email            : 
+  email            : "uoidori97@naver.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://hwanklim.github.io"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url : "https://github.com/hwanklim"
 
 # Site Footer
 footer:
