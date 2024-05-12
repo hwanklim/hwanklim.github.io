@@ -111,7 +111,7 @@ author:
   email            : "uoidori97@naver.com"
   links:
     - label: "Blog"
-      icon: "fa-solid fa-blog"
+      icon: "fab fa-blog"
       url: "https://blog.naver.com/uoidori97"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
