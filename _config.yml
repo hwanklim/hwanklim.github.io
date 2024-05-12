@@ -111,8 +111,8 @@ author:
   email            : "uoidori97@naver.com"
   links:
     - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://hwanklim.github.io"
+      icon: "fab fa-naver"
+      url: "https://blog.naver.com/uoidori97"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url : "https://github.com/hwanklim"
