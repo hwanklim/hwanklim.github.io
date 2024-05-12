@@ -110,8 +110,8 @@ author:
   location         : "South Korea"
   email            : "uoidori97@naver.com"
   links:
-    - label: "blog"
-      icon: "fab fa-naver"
+    - label: "Blog"
+      icon: "<i class="fa-solid fa-blog"></i>"
       url: "https://blog.naver.com/uoidori97"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
